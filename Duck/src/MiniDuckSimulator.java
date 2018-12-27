@@ -5,7 +5,7 @@ import FlyBehavior.FlyRocketPowered;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {
-        /* “针对接口编程”的真正含义：
+        /* “针对接口编程（设计原则2）”的真正含义：
          * “针对超类型(Duck)”编程 */
         Duck mallard = new MallardDuck();
         mallard.display();      //Duck的抽象方法，必须由子类具体实现
